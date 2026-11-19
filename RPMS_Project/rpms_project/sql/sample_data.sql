@@ -1,0 +1,37 @@
+USE rpms_db;
+INSERT IGNORE INTO skills(skill_name,category) VALUES ('Python','Programming'),('Java','Programming'),('SQL','Database'),('Power BI','Analytics'),('Excel','Analytics'),('C','Programming'),('HTML','Web'),('CSS','Web'),('JavaScript','Web'),('Testing','Quality');
+INSERT IGNORE INTO companies(company_code,company_name,industry,location,company_type,status) VALUES
+('COM-001','TechNova Solutions','IT Services','Pune','MID_SIZE','ACTIVE'),('COM-002','DataBridge Analytics','Analytics','Mumbai','STARTUP','ACTIVE'),('COM-003','CloudPeak Systems','Cloud','Bengaluru','MNC','ACTIVE'),('COM-004','FinEdge Technologies','FinTech','Pune','MID_SIZE','ACTIVE'),('COM-005','NextWave Digital','IT Services','Hyderabad','MNC','ACTIVE'),('COM-006','BrightPath Consulting','Consulting','Mumbai','CONSULTANCY','ACTIVE'),('COM-007','PixelCraft Labs','Software','Pune','STARTUP','ACTIVE'),('COM-008','CoreStack Global','IT Services','Chennai','MNC','ACTIVE');
+INSERT IGNORE INTO candidates(candidate_code,full_name,email,mobile,qualification,college,university,passing_year,percentage,cgpa,backlog_count,primary_technology,current_location,preferred_location,profile_status,placement_status) VALUES
+('CAN-2026-0001','Rahul Patil','rahul.patil@example.com','9000000001','BE','PDEA College of Engineering','SPPU',2026,78.50,8.10,0,'Java','Pune','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0002','Aditi Shah','aditi.shah@example.com','9000000002','BE','Modern College','SPPU',2026,82.00,8.50,0,'Python','Pune','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0003','Neha Joshi','neha.joshi@example.com','9000000003','BTech','MIT-WPU','SPPU',2025,75.00,7.80,1,'SQL','Pune','Mumbai','ACTIVE','PLACED'),
+('CAN-2026-0004','Omkar Deshmukh','omkar.d@example.com','9000000004','BE','Sinhgad College','SPPU',2026,69.00,7.20,0,'Python','Pune','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0005','Sana Khan','sana.khan@example.com','9000000005','MCA','Indira College','SPPU',2025,80.00,8.20,0,'Power BI','Pune','Mumbai','ACTIVE','NOT_PLACED'),
+('CAN-2026-0006','Rohan Kulkarni','rohan.k@example.com','9000000006','BE','AISSMS','SPPU',2026,73.00,7.60,0,'Java','Pune','Bengaluru','ACTIVE','NOT_PLACED'),
+('CAN-2026-0007','Isha More','isha.more@example.com','9000000007','BSc','Fergusson College','SPPU',2025,77.00,8.00,0,'Excel','Pune','Pune','ACTIVE','PLACED'),
+('CAN-2026-0008','Aditya Pawar','aditya.p@example.com','9000000008','BE','PCCOE','SPPU',2026,66.00,7.00,2,'C','Pimpri','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0009','Mira Kulkarni','mira.k@example.com','9000000009','BTech','VIT Pune','SPPU',2026,88.00,9.10,0,'Python','Pune','Bengaluru','ACTIVE','NOT_PLACED'),
+('CAN-2026-0010','Kunal Jadhav','kunal.j@example.com','9000000010','BE','DYP','SPPU',2025,71.00,7.50,0,'Java','Pune','Pune','ACTIVE','PLACED'),
+('CAN-2026-0011','Pooja Nair','pooja.nair@example.com','9000000011','MCA','IMCC','SPPU',2026,84.00,8.70,0,'SQL','Pune','Mumbai','ACTIVE','NOT_PLACED'),
+('CAN-2026-0012','Siddhant Kale','sid.kale@example.com','9000000012','BE','PDEA College','SPPU',2026,64.00,6.80,1,'HTML','Pune','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0013','Ananya Rao','ananya.rao@example.com','9000000013','BTech','COEP','SPPU',2025,91.00,9.30,0,'Python','Pune','Bengaluru','ACTIVE','PLACED'),
+('CAN-2026-0014','Vivek Shinde','vivek.s@example.com','9000000014','BE','JSPM','SPPU',2026,70.00,7.40,0,'Java','Pune','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0015','Riya Bhosale','riya.b@example.com','9000000015','BSc','Modern College','SPPU',2025,79.00,8.10,0,'Excel','Pune','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0016','Harsh Vaidya','harsh.v@example.com','9000000016','BE','AISSMS','SPPU',2026,68.00,7.10,0,'C','Pune','Mumbai','ACTIVE','NOT_PLACED'),
+('CAN-2026-0017','Tanvi Gokhale','tanvi.g@example.com','9000000017','MCA','PCCOE','SPPU',2026,86.00,8.90,0,'Power BI','Pune','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0018','Saurabh Pawar','saurabh.p@example.com','9000000018','BE','Sinhgad College','SPPU',2025,72.00,7.60,0,'Java','Pune','Pune','ACTIVE','PLACED'),
+('CAN-2026-0019','Kavya Iyer','kavya.iyer@example.com','9000000019','BTech','VIT Pune','SPPU',2026,89.00,9.00,0,'SQL','Pune','Bengaluru','ACTIVE','NOT_PLACED'),
+('CAN-2026-0020','Nikhil Salunkhe','nikhil.s@example.com','9000000020','BE','PDEA College','SPPU',2026,62.00,6.60,2,'Python','Pune','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0021','Shruti Patil','shruti.p@example.com','9000000021','MCA','Indira College','SPPU',2025,81.00,8.40,0,'SQL','Pune','Mumbai','ACTIVE','PLACED'),
+('CAN-2026-0022','Manav Shah','manav.shah@example.com','9000000022','BE','PCCOE','SPPU',2026,76.00,7.90,0,'Java','Pune','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0023','Diya Desai','diya.desai@example.com','9000000023','BSc','Fergusson College','SPPU',2026,83.00,8.60,0,'Excel','Pune','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0024','Akash Jagtap','akash.j@example.com','9000000024','BE','DYP','SPPU',2025,67.00,7.00,1,'Testing','Pune','Mumbai','ACTIVE','NOT_PLACED'),
+('CAN-2026-0025','Sakshi Kulkarni','sakshi.k@example.com','9000000025','BTech','COEP','SPPU',2026,92.00,9.40,0,'Python','Pune','Bengaluru','ACTIVE','NOT_PLACED'),
+('CAN-2026-0026','Pranav More','pranav.more@example.com','9000000026','BE','JSPM','SPPU',2026,74.00,7.70,0,'JavaScript','Pune','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0027','Nisha Khan','nisha.khan@example.com','9000000027','MCA','IMCC','SPPU',2025,78.00,8.00,0,'Power BI','Pune','Mumbai','ACTIVE','PLACED'),
+('CAN-2026-0028','Yash Joshi','yash.j@example.com','9000000028','BE','AISSMS','SPPU',2026,65.00,6.90,0,'C','Pune','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0029','Mansi Rao','mansi.rao@example.com','9000000029','BTech','MIT-WPU','SPPU',2026,87.00,9.00,0,'SQL','Pune','Pune','ACTIVE','NOT_PLACED'),
+('CAN-2026-0030','Atharva Kale','atharva.k@example.com','9000000030','BE','PDEA College','SPPU',2026,71.00,7.50,0,'Python','Pune','Pune','ACTIVE','NOT_PLACED');
+INSERT IGNORE INTO jobs(job_code,company_id,job_title,employment_type,location,openings,min_package_lpa,max_package_lpa,min_percentage,min_passing_year,max_passing_year,max_backlogs,posted_date,application_deadline,status) VALUES
+('JOB-0001',1,'Python Developer','FULL_TIME','Pune',3,4.00,6.00,65,2025,2026,0,CURDATE(),'2026-11-20','OPEN'),('JOB-0002',2,'Data Analyst','FULL_TIME','Mumbai',2,3.00,5.00,70,2025,2026,0,CURDATE(),'2026-11-25','OPEN'),('JOB-0003',3,'Java Developer','FULL_TIME','Bengaluru',4,5.00,8.00,65,2025,2026,1,CURDATE(),'2026-11-30','OPEN'),('JOB-0004',4,'SQL Analyst','INTERNSHIP','Pune',2,2.00,3.00,60,2025,2026,1,CURDATE(),'2026-11-18','OPEN'),('JOB-0005',5,'QA Engineer','FULL_TIME','Hyderabad',3,3.50,5.00,65,2025,2026,0,CURDATE(),'2026-12-05','OPEN'),('JOB-0006',6,'BI Intern','INTERNSHIP','Mumbai',2,1.50,2.50,70,2025,2026,0,CURDATE(),'2026-11-28','OPEN'),('JOB-0007',7,'Frontend Developer','FULL_TIME','Pune',2,4.00,6.00,65,2025,2026,0,CURDATE(),'2026-12-10','OPEN'),('JOB-0008',8,'Graduate Engineer Trainee','FULL_TIME','Chennai',5,4.00,7.00,60,2025,2026,1,CURDATE(),'2026-12-15','OPEN'),('JOB-0009',1,'Data Engineering Intern','INTERNSHIP','Pune',2,2.00,3.00,70,2025,2026,0,CURDATE(),'2026-12-01','OPEN'),('JOB-0010',2,'Reporting Analyst','FULL_TIME','Mumbai',2,3.00,4.50,65,2025,2026,0,CURDATE(),'2026-12-08','OPEN'),('JOB-0011',3,'Support Engineer','FULL_TIME','Bengaluru',3,3.50,5.00,60,2025,2026,1,CURDATE(),'2026-12-12','OPEN'),('JOB-0012',7,'Software Tester','FULL_TIME','Pune',2,3.00,4.50,65,2025,2026,0,CURDATE(),'2026-12-20','OPEN');
